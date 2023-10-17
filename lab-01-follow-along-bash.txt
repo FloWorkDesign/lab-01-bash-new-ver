@@ -1,41 +1,59 @@
 Question 1: Open your terminal and start by displaying the current working directory.
-@XaviTest ➜ /workspaces/lab-01-bash (main) $ pwd
-/workspaces/lab-01-bash
-yyu
+pwd then Enter.
+
 Question 2: List all files and directories in your current directory.
-@XaviTest ➜ /workspaces/lab-01-bash (main) $ ls
-README.md  lab-01-follow-along.txt  lab-02-file-follow-along.txt  lab-02-follow-along-two.txt  new-folder
+ls -a then Enter.
 
 Question 3: Navigate to your home directory.
+cd ~ then Enter.
 
 Question 4: Create a new directory named "documents" in your home directory.
+mkdir documents then Enter.
 
 Question 5: Change your current directory to the "documents" directory.
+cd documents/ then Enter.
 
 Question 6: Create a new file named "report.txt" in the "documents" directory.
+touch report.txt then Enter.
 
 Question 7: Display the contents of the "report.txt" file.
+cat report.txt then Enter.
 
 Question 8: Append the text "This is a sample report." to the "report.txt" file.
+echo "This is a sample report." >> report.txt then Enter.
 
 Question 9: List all files and directories in the "documents" directory.
+ls -a then Enter.
 
 Question 10: Rename the "report.txt" file to "monthly_report.txt" within the "documents" directory.
+mv report.txt monthly_report.txt then Enter.
+
+Question 11: Create a new directory named "backup" within the "documents" directory.
+mkdir backup then Enter.
 
 Question 12: Move the "monthly_report.txt" file into the "backup" directory.
+mv report.txt then Enter.
 
 Question 13: Change your current directory back to your home directory.
+cd ~ then Enter.
 
 Question 14: Display the full path to the "backup" directory.
+pwd then Enter.
 
 Question 15: List all files and directories in the "backup" directory using an absolute path.
+ls -a then Enter.
 
 Question 16: Delete the "backup" directory and its contents.
+rm backup then Enter.
 
 Question 17: Search for all files in your home directory that contain the word "important."
+ls -a important.
 
-Question 18: Display the first 5 lines of the "monthly_report.txt" file.
+Question 18: Display the 5 lines of the "monthly_report.txt" file.
+cat monthly_report.txt then Enter.
 
 Question 19: Count the number of files and directories in your home directory.
+Five.
 
 Question 20: Logout of your current terminal session.
+Close terminal then return back to profile.
